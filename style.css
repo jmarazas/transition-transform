@@ -77,7 +77,11 @@ body {
     transform: rotate(15deg);
 }
 
-.buttom__inside-2:hover text{
-   transform: rotate(45deg);
-    
+.buttom__inside-2:active{
+    background: url(".//bean.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: rgba(0,0,0,0.0);
+    box-shadow: inset 0px 0px 80px 0px rgba(0,0,0,0.85);
+
 }
